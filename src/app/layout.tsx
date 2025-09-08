@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 import type { ReactNode } from 'react';
 
 export const metadata: Metadata = {
-  title: 'Sayes Performance',
+  title: 'Next Generation Athlete',
   description: 'Performance Coaching & Training',
   icons: {
     icon: [{ url: '/favicon.ico', type: 'image/x-icon' }],

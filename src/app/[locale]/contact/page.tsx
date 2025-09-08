@@ -15,8 +15,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const { locale } = await params;
   const dict = await getDictionary(locale as Locale, 'contact-page');
   return {
-    title: dict.contact_us + ' | Sayes Performance' || 'Contact Us | Sayes Performance',
-    description: dict.get_in_touch_description || 'Get in touch with Sayes Performance for coaching and training inquiries.',
+    title: dict.contact_us + ' | Next Generation Athlete' || 'Contact Us | Next Generation Athlete',
+    description: dict.get_in_touch_description || 'Get in touch with Next Generation Athlete for coaching and training inquiries.',
   };
 }
 

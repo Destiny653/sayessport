@@ -12,8 +12,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const { locale } = await params;
   const dict = await getDictionary(locale as Locale, 'privacy');
   return {
-    title: dict.privacy_policy + ' | Sayes Performance' || 'Privacy Policy | Sayes Performance',
-    description: dict.intro_text || 'Privacy policy for Sayes Performance Center members and users.',
+    title: dict.privacy_policy + ' | Next Generation Athlete' || 'Privacy Policy | Next Generation Athlete',
+    description: dict.intro_text || 'Privacy policy for Next Generation Athlete Center members and users.',
   };
 }
 
@@ -32,7 +32,7 @@ export default async function PrivacyPolicy({
       </div>
 
       <div className="prose prose-lg max-w-none">
-        <p><strong>Sayes Performance {dict.privacy_policy}</strong></p>
+        <p><strong>Next Generation Athlete {dict.privacy_policy}</strong></p>
         <p>{dict.effective_date}</p>
         <p>{dict.intro_text}</p>
 

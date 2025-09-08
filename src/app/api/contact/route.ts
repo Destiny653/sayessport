@@ -44,7 +44,7 @@ export async function POST(request: NextRequest) {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact Form Submission – Sayes Performance</title>
+  <title>Contact Form Submission – Next Generation Athlete</title>
   <style>
     /* Reset styles for email client compatibility */
     * {
@@ -277,7 +277,7 @@ export async function POST(request: NextRequest) {
 <body>
   <div class="container">
     <div class="header">
-      <h1>🏆 Sayes Performance</h1>
+      <h1>🏆 Next Generation Athlete</h1>
       <p>Unleash Your Athletic Potential</p>
     </div>
     <div class="banner">
@@ -315,7 +315,7 @@ export async function POST(request: NextRequest) {
       <a href="mailto:${email}?subject=Re:%20Contact%20Form%20Submission" class="cta-button">Reply to This Inquiry</a>
     </div>
     <div class="footer">
-      <strong>Sayes Performance</strong><br>
+      <strong>Next Generation Athlete</strong><br>
       Västanforsgatan 30 A, 214 50 Malmö, Sweden<br>
       <a href="mailto:info@sayesperformance.se">info@sayesperformance.se</a> | +46 72 333 87 87<br>
       <div style="margin-top: 10px;">
@@ -323,7 +323,7 @@ export async function POST(request: NextRequest) {
         <a href="https://instagram.com/sayesperformance">Instagram</a> |
         <a href="https://sayesperformance.se">Website</a>
       </div>
-      <div style="margin-top: 10px;">© 2025 Sayes Performance. All rights reserved.</div>
+      <div style="margin-top: 10px;">© 2025 Next Generation Athlete. All rights reserved.</div>
     </div>
   </div>
 </body>

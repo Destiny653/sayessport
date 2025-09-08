@@ -9,7 +9,7 @@ import type { ReactNode } from 'react';
 import Header from '@/components/common/Header';
 
 export const metadata: Metadata = {
-  title: 'Sayes Performance',
+  title: 'Next Generation Athlete',
   description: 'Performance Coaching & Training',
   icons: {
     icon: [{ url: '/favicon.ico', type: 'image/x-icon' }],

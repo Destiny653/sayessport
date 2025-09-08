@@ -26,7 +26,7 @@ export const packages = [
         'Professional coaching',
         'Motivational environment',
       ],
-      image: '/new/offer6.jpg',
+      image: '/new/offer2.jpg',
     },
     {
       id: 3,
@@ -40,7 +40,7 @@ export const packages = [
         'Progress tracking & analytics',
         'Flexible scheduling',
       ],
-      image: '/new/offer2.jpg',
+      image: '/new/offer6.jpg',
     },
     {
       id: 4,

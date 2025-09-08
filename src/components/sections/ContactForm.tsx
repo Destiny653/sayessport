@@ -225,7 +225,7 @@ const ContactForm = ({ dict }: ContactFormProps) => {
           <div className="rounded-xl h-[300px] md:h-[400px] overflow-hidden border-2 border-blue-700/30">
             <iframe
               src="https://maps.google.com/maps?q=V%C3%A4stanforsgatan%2030%20A%2C%20214%2050%20Malm%C3%B6%2C%20Sweden&t=m&z=15&output=embed&iwloc=near"
-              title="Sayes Performance Location"
+              title="Next Generation Athlete Location"
               width="100%"
               height="100%"
               style={{ border: 0 }}

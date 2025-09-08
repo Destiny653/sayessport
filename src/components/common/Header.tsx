@@ -91,10 +91,10 @@ const Header: React.FC<HeaderProps> = ({ className = '', dict }) => {
           <div className="w-[180px] h-[70px] grid place-items-center">
             <Link href={`/${currentLang.code}`}>
               <Image
-                src="/sayeslogo.png"
+                src="/nextgen.png"
                 alt="Logo"
-                width={100}
-                height={100}
+                width={400}
+                height={400}
                 className="w-full h-full object-contain cursor-pointer transition-transform hover:scale-105"
                 priority
               />

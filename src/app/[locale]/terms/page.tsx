@@ -12,8 +12,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const { locale } = await params;
   const dict = await getDictionary(locale as Locale, 'terms');
   return {
-    title: dict.membership_terms + ' | Sayes Performance' || 'Terms & Conditions | Sayes Performance',
-    description: dict.membership_personal || 'Membership terms and conditions for Sayes Performance Center.',
+    title: dict.membership_terms + ' | Next Generation Athlete' || 'Terms & Conditions | Next Generation Athlete',
+    description: dict.membership_personal || 'Membership terms and conditions for Next Generation Athlete Center.',
   };
 }
 
