@@ -1,0 +1,53 @@
+{
+  "privacy_policy": "Privacy Policy",
+  "effective_date": "Effective as of August 25, 2025.",
+  "intro_text": "As a member of one of Sayes Performance Center and to provide you with the services you receive from us, we need to process your personal data. This privacy policy contains information about our processing of your personal data and your rights in relation to our processing.",
+  "what_data_title": "What personal data do we handle?",
+  "data_collection_intro": "We collect the following information from you:",
+  "data_items": {
+    "name": "Name",
+    "address": "Address",
+    "social_security": "Social security number",
+    "phone": "Telephone number",
+    "email": "Email address",
+    "photo": "Photo",
+    "ip_address": "IP address (when using my pages)",
+    "login_details": "Login details (when you use my pages)",
+    "payment_info": "Payment information (such as card number or bank account for payment via direct debit)",
+    "facility_access": "Information about your entry and exit at our facilities"
+  },
+  "additional_data_text": "In addition to the above, we may also collect other information that you provide from time to time for special services, such as, Sports massage treatments, Personal coaching sessions, Group sessions, interest registrations for various events, when you purchase from our website etc. These are either voluntary or necessary for the services for which they are required. You will be told what that information is used for when you provide it.",
+  "surveillance_text": "At our fitness centers, camera surveillance at the entrance or inside the gym area takes place in accordance with current legislation, which means that you as a member may be recorded on surveillance footage.",
+  "data_usage_title": "What is the data used for?",
+  "data_usage_intro": "We only process your data for the purposes stated in this Privacy Policy. In most cases, we need the data to be able to provide the services you requested. In some cases we also want to provide other services and then we ask you for your consent for these services. This section contains information about what we use your personal data for and which legal basis we have for each case.",
+  "membership_management_title": "Management of your membership agreement",
+  "membership_management_text": "We process your data in order to be able to fulfill your membership agreement and safeguard the rights and fulfill the obligations...",
+  "company_info": {
+    "name": "Sayes Performance AB",
+    "org_number": "Organization number: 559450-7054",
+    "phone": "Telephone number: 072 333 8787",
+    "address": "Postal address: Dag Hammarskjölds Torg 2, 211 18 Malmö",
+    "register_extract": "Label the envelope \"Register extract\". The register extract is only sent to your civil registration address."
+  },
+  "rights": {
+    "rectification_title": "Right to rectification",
+    "rectification_text": "If you notice that we have incorrect information about you, you have the right to request that we correct such information. You also have the right to supplement with such personal data that you consider to be missing and that are relevant with regard to the purpose we have for the processing of your personal data. In most cases, you can correct incorrect information yourself via My Pages. If this is not possible, you must be able to identify yourself with an ID document approved in Sweden when contacting us.",
+    "erasure_title": "Right to erasure",
+    "erasure_text": "We save your customer data in accordance with what appears above. However, you always have the right to contact us and ask for your personal data to be deleted. We will then delete them to the extent that follows from the applicable law or regulation.",
+    "limitation_title": "Right to limitation of treatment",
+    "limitation_text": "The right to restriction applies, among other things, if you believe that the personal data is incorrect and have requested correction. In such cases, you can also request that our processing of your personal data be limited while the accuracy of the personal data is investigated.",
+    "object_title": "Right to object",
+    "object_text": "You have the right to object to the processing of your personal data that we do based on balancing of interests. In that case, you need to specify which treatment you object to. In the event of such an objection, we may only continue processing if we can demonstrate that there are compelling, justifiable reasons why the personal data must be processed that outweigh your interests."
+  },
+  "complaint_title": "Complaint",
+  "complaint_text": "If you believe that we are processing your personal data in violation of applicable data protection regulations, you should report this to us as soon as possible. Our contact details appear below. You also always have the right to contact the Swedish Privacy Protection Authority (IMY) if you have any comments about our processing of your personal data.",
+  "contact_title": "Contact details",
+  "contact_intro": "If you have questions or comments, you are always welcome to contact us.",
+  "contact_info": {
+    "controller": "Personal data controller: Svenska N'ergy AB",
+    "company": "Swedish N'ergy AB (org. no. 556591-8868)",
+    "box": "Box 605",
+    "postal": "442 40 Kungälv",
+    "phone": "Phone: 010-8885698"
+  }
+}

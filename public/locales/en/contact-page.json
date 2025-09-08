@@ -1,0 +1,23 @@
+{
+  "contact_us": "Contact Us",
+  "get_in_touch_description": "Get in touch with our team - we're here to help you achieve your performance goals",
+  "address": "Address",
+  "email_us": "Email Us",
+  "call_us": "Call Us",
+  "name": "Name",
+  "your_name": "Your Name",
+  "phone": "Phone",
+  "phone_number": "Phone Number",
+  "your_phone_number": "Your Phone Number",
+  "email": "Email",
+  "your_email": "your.email@example.com",
+  "message": "Message",
+  "your_message": "Your message...",
+  "submit_message": "Submit Message",
+  "sending": "Sending...",
+  "name_min_length": "Name must be at least 2 characters.",
+  "phone_min_length": "Please enter a valid phone number.",
+  "email_invalid": "Please enter a valid email address.",
+  "message_min_length": "Message must be at least 10 characters.",
+  "thank_you_message": "Thank you for your message! We'll get back to you soon."
+}

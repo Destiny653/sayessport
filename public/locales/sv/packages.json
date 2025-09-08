@@ -1,0 +1,75 @@
+{
+  "our_packages": "Våra Paket",
+  "train_smarter": "Träna smartare med personliga träningsprogram",
+  "individually_or_groups": "individuellt eller i små grupper",
+  "view_details": "Visa Detaljer",
+  "book_now": "Boka Nu",
+  "packages": [
+    {
+      "id": 1,
+      "title": "Medlemskap",
+      "description": "Vår Small Group Training kombinerar expertcoaching med lagandan i ett tätt team. I grupper om 4-6 tar du dig an sport-specifika cirklar, övningstekniker och målmedvetna träningspass utformade för att hjälpa dig bli en bättre idrottare. Njut av personliga återkopplingar, vänskaplig tävlan och en stödjande atmosfär.",
+      "price": "899 SEK/Månad",
+      "features": [
+        "Smågruppsträning, 6 pass per månad",
+        "2 grundläggande screeningar per år",
+        "Bindningstid: 2 månader",
+        "Uppsägningstid: 1 månad"
+      ],
+      "type": "membership",
+      "image": "/new/offer1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Gruppträning",
+      "price": "250 SEK/session",
+      "description": "Vår Small Group Training kombinerar expertcoaching med lagandan i ett tätt team. I grupper om 4-6 tar du dig an sport-specifika cirklar, övningstekniker och målmedvetna träningspass utformade för att hjälpa dig bli en bättre idrottare. Njut av personliga återkopplingar, vänskaplig tävlan och en stödjande atmosfär. Gå med i våra grupppass och utvecklas tillsammans — boka din plats nu!",
+      "features": [
+        "Smågruppsträning",
+        "Flexibla tider",
+        "Professionell coaching",
+        "Motiverande miljö"
+      ],
+      "image": "/new/offer3.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Personlig Coaching 1",
+      "price": "599 SEK/session",
+      "description": "Våra personliga coachingsessioner med våra tränare ger anpassade träningsplaner, en-mot-en coaching och träningsvägledning skräddarsydd efter dina mål. Vi hjälper dig att följa upp dina framsteg genom regelbundna möten, får kontinuerligt ansvarstagande och du drar nytta av experthjälp vid varje steg på vägen. Redo för en förändring? Boka din kostnadsfria bedömning idag och påbörja din resa mot topprestation!",
+      "features": [
+        "1-9 personliga coachingsessioner med en tränare",
+        "Skräddarsydda träningsprogram",
+        "Uppföljning och analys av framsteg",
+        "Flexibla tider"
+      ],
+      "image": "/new/offer2.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Personlig Coaching 2",
+      "price": "500 SEK/Session",
+      "description": "Våra personliga coachingsessioner med våra tränare erbjuder anpassade träningsplaner, en-mot-en coaching och vägledning anpassad efter dina mål. Vi hjälper dig att följa upp dina framsteg genom regelbundna möten, får kontinuerligt ansvarstagande och du drar nytta av expertstöd vid varje steg. Redo för att förändras? Boka din kostnadsfria bedömning idag och starta din resa mot topprestation!",
+      "features": [
+        "10 personliga coachingsessioner med en tränare",
+        "Omfattande träningsprogram",
+        "Detaljerad uppföljning av framsteg",
+        "Prioriterad schemaläggning"
+      ],
+      "image": "/new/offer4.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Grundläggande Screening + Träningsprogram",
+      "price": "1200 SEK",
+      "description": "Vår privata träning erbjuder personligt anpassad, en-mot-en coaching riktad mot dina specifika mål, oavsett om det handlar om att förbättra styrka, hastighet eller sportsspecifika färdigheter. Arbeta direkt med våra experter för att skapa en skräddarsydd plan som maximerar din potential. Redo att ta din träning till nästa nivå? Boka din privata session nu!",
+      "features": [
+        "Omfattande fysiskt prov",
+        "Personligt anpassat träningsprogram",
+        "Vägledning av expertcoach",
+        "Övervakning av framsteg"
+      ],
+      "image": "/new/offer5.jpg"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "contact_us": "Kontakta Oss",
+  "get_in_touch_description": "Kom i kontakt med vårt team - vi är här för att hjälpa dig uppnå dina prestationsmål",
+  "address": "Adress",
+  "email_us": "Mejla Oss",
+  "call_us": "Ring Oss",
+  "name": "Namn",
+  "your_name": "Ditt Namn",
+  "phone": "Telefon",
+  "phone_number": "Telefonnummer",
+  "your_phone_number": "Ditt Telefonnummer",
+  "email": "E-post",
+  "your_email": "din.epost@exempel.com",
+  "message": "Meddelande",
+  "your_message": "Ditt meddelande...",
+  "submit_message": "Skicka Meddelande",
+  "sending": "Skickar...",
+  "name_min_length": "Namn måste vara minst 2 tecken.",
+  "phone_min_length": "Vänligen ange ett giltigt telefonnummer.",
+  "email_invalid": "Vänligen ange en giltig e-postadress.",
+  "message_min_length": "Meddelandet måste vara minst 10 tecken.",
+  "thank_you_message": "Tack för ditt meddelande! Vi återkommer till dig snart."
+}

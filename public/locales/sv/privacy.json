@@ -1,0 +1,53 @@
+{
+  "privacy_policy": "Integritetspolicy",
+  "effective_date": "Gäller från 25 augusti 2025.",
+  "intro_text": "Som medlem i Sayes Performance Center och för att kunna tillhandahålla de tjänster du får från oss, behöver vi behandla dina personuppgifter. Denna integritetspolicy innehåller information om vår behandling av dina personuppgifter och dina rättigheter i förhållande till vår behandling.",
+  "what_data_title": "Vilka personuppgifter hanterar vi?",
+  "data_collection_intro": "Vi samlar in följande information från dig:",
+  "data_items": {
+    "name": "Namn",
+    "address": "Adress",
+    "social_security": "Personnummer",
+    "phone": "Telefonnummer",
+    "email": "E-postadress",
+    "photo": "Foto",
+    "ip_address": "IP-adress (när du använder mina sidor)",
+    "login_details": "Inloggningsuppgifter (när du använder mina sidor)",
+    "payment_info": "Betalningsinformation (såsom kortnummer eller bankkonto för betalning via autogiro)",
+    "facility_access": "Information om din in- och utpassering på våra anläggningar"
+  },
+  "additional_data_text": "Utöver ovanstående kan vi även samla in annan information som du tillhandahåller från tid till annan för särskilda tjänster, såsom sportmassagebehandlingar, personliga coachingsessioner, gruppsessioner, intresseanmälningar för olika evenemang, när du köper från vår webbplats etc. Dessa är antingen frivilliga eller nödvändiga för de tjänster för vilka de krävs. Du kommer att få veta vad den informationen används för när du tillhandahåller den.",
+  "surveillance_text": "På våra träningscenter sker kameraövervakning vid entrén eller inne i gymområdet i enlighet med gällande lagstiftning, vilket innebär att du som medlem kan spelas in på övervakningsfilm.",
+  "data_usage_title": "Vad används uppgifterna till?",
+  "data_usage_intro": "Vi behandlar endast dina uppgifter för de ändamål som anges i denna integritetspolicy. I de flesta fall behöver vi uppgifterna för att kunna tillhandahålla de tjänster du begärt. I vissa fall vill vi även tillhandahålla andra tjänster och då ber vi om ditt samtycke för dessa tjänster. Detta avsnitt innehåller information om vad vi använder dina personuppgifter för och vilken rättslig grund vi har för varje fall.",
+  "membership_management_title": "Hantering av ditt medlemsavtal",
+  "membership_management_text": "Vi behandlar dina uppgifter för att kunna fullgöra ditt medlemsavtal och säkerställa rättigheterna och uppfylla skyldigheterna...",
+  "company_info": {
+    "name": "Sayes Performance AB",
+    "org_number": "Organisationsnummer: 559450-7054",
+    "phone": "Telefonnummer: 072 333 8787",
+    "address": "Postadress: Dag Hammarskjölds Torg 2, 211 18 Malmö",
+    "register_extract": "Märk kuvertet \"Registerutdrag\". Registerutdraget skickas endast till din folkbokföringsadress."
+  },
+  "rights": {
+    "rectification_title": "Rätt till rättelse",
+    "rectification_text": "Om du märker att vi har felaktig information om dig, har du rätt att begära att vi korrigerar sådan information. Du har också rätt att komplettera med sådana personuppgifter som du anser saknas och som är relevanta med hänsyn till det ändamål vi har för behandlingen av dina personuppgifter. I de flesta fall kan du korrigera felaktig information själv via Mina Sidor. Om detta inte är möjligt måste du kunna identifiera dig med en i Sverige godkänd ID-handling när du kontaktar oss.",
+    "erasure_title": "Rätt till radering",
+    "erasure_text": "Vi sparar dina kunduppgifter i enlighet med vad som framgår ovan. Du har dock alltid rätt att kontakta oss och begära att dina personuppgifter raderas. Vi kommer då att radera dem i den utsträckning som följer av tillämplig lag eller förordning.",
+    "limitation_title": "Rätt till begränsning av behandling",
+    "limitation_text": "Rätten till begränsning gäller bland annat om du anser att personuppgifterna är felaktiga och har begärt rättelse. I sådana fall kan du även begära att vår behandling av dina personuppgifter begränsas medan riktigheten av personuppgifterna utreds.",
+    "object_title": "Rätt att invända",
+    "object_text": "Du har rätt att invända mot behandlingen av dina personuppgifter som vi gör baserat på intresseavvägning. I så fall behöver du specificera vilken behandling du invänder mot. Vid en sådan invändning får vi endast fortsätta behandlingen om vi kan visa att det finns tvingande, berättigade skäl till varför personuppgifterna måste behandlas som väger tyngre än dina intressen."
+  },
+  "complaint_title": "Klagomål",
+  "complaint_text": "Om du anser att vi behandlar dina personuppgifter i strid med tillämpliga dataskyddsregler, bör du rapportera detta till oss så snart som möjligt. Våra kontaktuppgifter framgår nedan. Du har också alltid rätt att kontakta Integritetsskyddsmyndigheten (IMY) om du har några kommentarer om vår behandling av dina personuppgifter.",
+  "contact_title": "Kontaktuppgifter",
+  "contact_intro": "Om du har frågor eller kommentarer är du alltid välkommen att kontakta oss.",
+  "contact_info": {
+    "controller": "Personuppgiftsansvarig: Svenska N'ergy AB",
+    "company": "Svenska N'ergy AB (org. nr. 556591-8868)",
+    "box": "Box 605",
+    "postal": "442 40 Kungälv",
+    "phone": "Telefon: 010-8885698"
+  }
+}
