@@ -17,7 +17,7 @@ export default function WhyChooseSection({ dict }: { dict: any }): JSX.Element {
               loop
               muted // Required for autoplay in most browsers
               playsInline
-              className="absolute top-0 left-0 w-[100%] h-auto lg:h-[700px] object-cover rounded-[5px]"
+              className=" w-[100%] h-[400px] lg:h-[700px] object-cover rounded-[5px]"
             />
           </div>
 
