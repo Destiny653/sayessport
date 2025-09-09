@@ -11,16 +11,23 @@ const bookingSchema = z.object({
   sports: z.string().min(1, { message: 'Sports field is required' }),
   sportsClub: z.string().optional(),
   position: z.string().optional(),
-  trainingGoals: z.string().min(10, { message: 'Training goals must be at least 10 characters' }),
+  // Fixed: Allow shorter training goals since they're from a dropdown
+  trainingGoals: z.string().min(1, { message: 'Training goals are required' }),
   preferredTrainingDays: z.string().min(1, { message: 'Preferred training days are required' }),
   additionalMessage: z.string().optional(),
-  packageId: z.string().min(1, { message: 'Package ID is required' }),
+  // Fixed: Convert number to string or accept both
+  packageId: z.union([
+    z.string().min(1, { message: 'Package ID is required' }),
+    z.number().min(1, { message: 'Package ID is required' })
+  ]).transform(val => String(val)),
   packageTitle: z.string().min(1, { message: 'Package title is required' }),
 });
 
 // Configure Nodemailer transporter
 const transporter = nodemailer.createTransport({
-  service: 'gmail',
+  host: process.env.SMTP_HOST || 'smtp.gmail.com',
+  port: parseInt(process.env.SMTP_PORT || '587'),
+  secure: process.env.SMTP_PORT === '465',
   auth: {
     user: process.env.EMAIL_USER,
     pass: process.env.EMAIL_PASS,
@@ -53,7 +60,7 @@ export async function POST(request: NextRequest) {
 
     // Send email
     await transporter.sendMail({
-      from: process.env.EMAIL_USER,
+      from: email,
       to: process.env.EMAIL_RECIPIENT || process.env.EMAIL_USER,
       replyTo: email,
       subject: `New Booking Request: ${packageTitle} (ID: ${packageId})`,
@@ -447,10 +454,10 @@ export async function POST(request: NextRequest) {
     );
   } catch (error) {
     console.error('Error submitting booking:', error);
-    
+
     if (error instanceof z.ZodError) {
       return NextResponse.json(
-        { error: 'Invalid form data', details: error.message },
+        { error: 'Invalid form data', details: error },
         { status: 400 }
       );
     }

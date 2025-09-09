@@ -34,8 +34,8 @@ export async function POST(request: NextRequest) {
 
     // Send email
     await transporter.sendMail({
-      from: process.env.EMAIL_USER,
-      to: process.env.EMAIL_RECIPIENT || process.env.EMAIL_USER,
+      from: email,
+      to: process.env.EMAIL_RECIPIENT_CONTACT || process.env.EMAIL_USER,
       replyTo: email,
       subject: `New Contact Form Submission from ${name}`,
       html: `
@@ -337,7 +337,7 @@ export async function POST(request: NextRequest) {
     );
   } catch (error) {
     console.error('Error sending email:', error);
-    
+
     if (error instanceof z.ZodError) {
       return NextResponse.json(
         { error: 'Invalid form data', details: error.message },
